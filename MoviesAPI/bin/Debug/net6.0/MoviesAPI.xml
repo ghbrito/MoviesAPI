@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MoviesAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MoviesAPI.Controllers.MovieController.AddMovie(MoviesAPI.Data.DTOs.CreateMovieDTO)">
+            <summary>
+            Adds a movie to the database
+            </summary>
+            <param name="movieDTO">Object containing the fields required to create a new movie</param>
+            <returns>IActionResult</returns>
+            <response code="201">If movie insertion is succeeded</response>
+        </member>
+        <member name="T:MoviesAPI.Migrations.CreatingMovieTable">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.CreatingMovieTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.CreatingMovieTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.CreatingMovieTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPI.Migrations.TheaterandAddress">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.TheaterandAddress.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.TheaterandAddress.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.TheaterandAddress.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPI.Migrations.SessionandMovie">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.SessionandMovie.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.SessionandMovie.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.SessionandMovie.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPI.Migrations.SessionandTheater">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.SessionandTheater.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.SessionandTheater.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.SessionandTheater.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPI.Migrations.MovieIdNull">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.MovieIdNull.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.MovieIdNull.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.MovieIdNull.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPI.Migrations.TheaterandMovie">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.TheaterandMovie.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.TheaterandMovie.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.TheaterandMovie.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPI.Migrations.DeleteRestrict">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.DeleteRestrict.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.DeleteRestrict.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPI.Migrations.DeleteRestrict.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
